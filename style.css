@@ -1,0 +1,103 @@
+.containerBesar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.btn2{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+.btn3{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+    border-radius: 100px;
+}
+
+.spanCB{
+    background-color: rgb(238, 238, 238);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.divH1{
+    display: flex;
+    justify-content: center;
+}
+
+.divH1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+.containerBesar2{
+    display: flex;
+    justify-content: center;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+.containerBesar2 p{
+    margin: 5px;
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(15%);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .divH1 h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 375px){
+    .containerBesar2{
+        display: none;
+    }
+}
+@media (max-width: 320px){
+    .divH1 h1{
+        font-size: 20px;
+    }
+}

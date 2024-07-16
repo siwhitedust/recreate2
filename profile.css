@@ -1,0 +1,44 @@
+.containerBesar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+
+.btn2{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.btn3{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+    border-radius: 100px;
+}
+
+.spanCB{
+    background-color: rgb(238, 238, 238);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 100px;
+}
