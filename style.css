@@ -15,6 +15,7 @@
     margin-left: 10px;
     background-color: white;
     border-radius: 100px;
+    background-color: rgb(238, 238, 238);
 }
 
 .btn2{
@@ -38,12 +39,13 @@
 }
 
 .spanCB{
-    background-color: rgb(238, 238, 238);
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 100px;
     position: fixed;
     z-index: 1;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 8px;
 }
 
 .divH1{
@@ -329,6 +331,10 @@
         left: 4.3cm;
         top: 71.8cm;
     }
+
+    #containerBesar4 h1{
+        font-size: 30px;
+    }
 }
 @media (max-width: 375px){
     .containerBesar2{
@@ -402,5 +408,9 @@
     #pCB3-6{
         left: 3cm;
         top: 68.3cm;
+    }
+
+    #containerBesar4 h1{
+        font-size: 25px;
     }
 }
