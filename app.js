@@ -80,3 +80,16 @@ img6.addEventListener('mouseleave', function(){
     img6.style.filter = "blur(0)"
     txt6.style.display = "none"
 })
+
+
+const observer = new IntersectionObserver((entries) =>{
+    entries.forEach((entry) => {
+        console.log(entry)
+        if(entry.isIntersecting){
+            tulisan.style.display = "flex"
+        }
+    })
+})
+
+observer.observe(document.getElementById('containerBesar4'))
+const tulisan = document.getElementById('h1CB4')
