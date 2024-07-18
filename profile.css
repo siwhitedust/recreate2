@@ -87,6 +87,9 @@
     border-radius: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
+    display: none;
+    animation-name: slideRight;
+    animation-duration: 2s;
 }
 
 .containerBesar5{
@@ -100,6 +103,105 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
+    display: none;
+    animation-name: slideRight;
+    animation-duration: 3.5s;
+}
+
+.containerBesar6{
+    display: flex;
+    justify-content: center;
+    margin-top: 4cm;
+}
+
+.containerBesar6 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    border-radius: 100px;
+    display: none;
+    animation: slideUp;
+    animation-duration: 4s;
+}
+
+.containerBesar7{
+    display: flex;
+    justify-content: center;
+}
+
+.containerBesar7 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+    animation: slideUp;
+    animation-duration: 4s;
+}
+
+.containerBesar8{
+    display: flex;
+    justify-content: center;
+}
+
+.containerKecil{
+    width: 60%;
+    display: none;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    animation: slideUp;
+    animation-duration: 5s;
+}
+
+.containerKecil h5{
+    margin-left: 2cm;
+    margin-right: 2cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.p1CK{
+    font-weight: bold;
+}
+
+.p2CK{
+    background-color: rgb(255, 93, 93);
+    padding: 8px;
+    border-radius: 100px;
+}
+
+.p3CK{
+    font-weight: bold;
+}
+
+.p4CK{
+    background-color: rgb(255, 93, 93);
+    padding: 8px;
+    border-radius: 100px;
+}
+
+#containerBesar9{
+        display: flex;
+        justify-content: center;
+        margin-top: 5cm;
+        text-align: center;
+}
+
+#containerBesar9 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    display: none;
+    animation-name: slideUp;
+    animation-duration: 3s;
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+        filter: blur(10px);
+    }
 }
 
 @keyframes slideUp{
@@ -114,12 +216,24 @@
         width: 450px;
         height: 550px;
     }
+
+    .p2CK{
+        font-size: 15px;
+    }
+
+    .p4CK{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 768px){
     .containerBesar3 img{
         width: 350px;
         height: 450px;
+    }
+
+    .containerKecil{
+        width: 100%;
     }
 }
 
@@ -140,8 +254,18 @@
         margin-top: 20px;
     }
 
+    .containerBesar7 p{
+        font-size: 20px;
+    }
+
     .containerBesar5 p{
         font-size: 20px;
         width: 70%;
+    }
+
+    .containerKecil h5{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
